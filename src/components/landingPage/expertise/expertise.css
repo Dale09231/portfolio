@@ -1,0 +1,53 @@
+.expertise-section {
+  padding: 5.5rem 0 0 0;
+}
+.expertise-container-content {
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.expertise-card {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+}
+.expertise-card-header h1 {
+  font-size: 1.3rem;
+  color: white;
+  margin: 0;
+  border: 1px solid #ff4a57;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.expertise-card-body {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skill-wrapper {
+  text-align: center;
+  margin-top: 1rem;
+}
+.skill-wrapper .logo-wrapper {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skill-wrapper .logo-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.skill-wrapper figcaption {
+  color: white;
+  padding-top: 1rem;
+  font-size: 1rem;
+}

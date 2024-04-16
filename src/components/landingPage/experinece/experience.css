@@ -1,0 +1,113 @@
+.experience-section {
+  padding: 5.5rem 0 0 0;
+}
+.experince-container-content {
+  padding-top: 3rem;
+}
+.experince-card {
+  display: flex;
+}
+.experience-container-left {
+  width: 50%;
+  border-right: 5px solid hsla(0, 0%, 100%, 0.4);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.experience-year {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: -10px;
+}
+.experience-year h1 {
+  color: hsla(0, 0%, 100%, 0.699);
+  font-size: 1rem;
+  margin: 0;
+}
+.experience-colon {
+  background: white;
+  border: 4px solid #ff4a57;
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+  border-radius: 50%;
+}
+.experience-container-right {
+  width: 50%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+}
+.experience-container-right h1 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.experience-container-right p {
+  color: #e9e9eb;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.experience-container-right ul {
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 1rem;
+  margin: 0;
+}
+.experience-container-right ul li::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #e9e9eb;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 8px;
+}
+.experience-container-right ul li {
+  color: #e9e9eb;
+  font-size: 1rem;
+  position: relative;
+  padding-left: 30px;
+}
+@media screen and (max-width: 576px) {
+  .experience-container-left {
+    width: 100px;
+    min-width: 100px;
+  }
+  .experience-year {
+    gap: 0.5rem;
+    margin-right: -8px;
+  }
+  .experience-year h1 {
+    font-size: 0.9rem;
+  }
+  .experience-colon {
+    width: 12px;
+    height: 12px;
+    min-width: 12px;
+    min-height: 12px;
+    border: 3px solid #ff4a57;
+  }
+  .experience-container-right {
+    width: 100%;
+    padding-left: 1rem;
+  }
+  .experience-container-right h1 {
+    font-size: 1rem;
+  }
+  .experience-container-right p {
+    font-size: 1rem;
+  }
+  .experience-container-right ul li {
+    font-size: 0.9rem;
+    padding-left: 15px;
+  }
+  .experience-container-right ul li::before {
+    top: 7px;
+  }
+}

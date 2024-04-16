@@ -1,0 +1,127 @@
+.portfolio-section {
+  padding: 5.5rem 0 0 0;
+}
+.portfolio-container-content {
+  padding-top: 3rem;
+}
+.tab-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.tab-btn-wrapper button {
+  background: transparent;
+  border: 1px solid transparent;
+  color: #ff4a57;
+  font-size: 1.3rem;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.tab-btn-wrapper button span {
+  background: #ff4a57;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 1px 5px;
+  font-weight: 600;
+}
+.tab-btn-wrapper button:hover {
+  border: 1px solid #ff4a57;
+}
+.tab-btn-wrapper button.active {
+  border-bottom: 3px solid #ff4a57;
+}
+.tab-content-wrapper {
+  padding-top: 3rem;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.portfolio-card {
+  background: #272a3f;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 0.5rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  height: 100%;
+}
+.portfolio-img-wrapper {
+  height: 200px;
+  margin-bottom: 0.5rem;
+  overflow: hidden;
+  width: 100%;
+}
+.portfolio-img-wrapper img {
+  overflow: hidden;
+  transition: transform 1s ease-in-out;
+  width: 100%;
+}
+.portfolio-img-wrapper:hover img {
+  transform: translateY(calc(-100% + 200px));
+  transition: transform 5s ease-in-out;
+}
+.portfolio-body {
+  padding: 1rem 0.7rem 0 0.7rem;
+}
+.portfolio-heading {
+  font-size: 1.3rem;
+  color: white;
+
+  font-weight: 400;
+}
+.portfolio-description {
+  color: white;
+  font-size: 0.9rem;
+  color: #b3bad3;
+}
+.portfolio-tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.tag-card {
+  color: hsla(0, 0%, 100%, 0.699);
+  border: 1px solid #ff4a57;
+  width: fit-content;
+  padding: 0.2rem 0.5rem;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.portfolio-card-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.portfolio-card-btn a svg {
+  width: 26px;
+}
+.portfolio-card-btn a svg path {
+  fill: #ada5a5;
+}
+.portfolio-card-btn a:hover svg path {
+  fill: #ff4a57;
+}
+@media screen and (max-width: 576px) {
+  .portfolio-container-content {
+    padding-top: 2rem;
+  }
+  .tab-content-wrapper {
+    padding-top: 1.5rem;
+  }
+  .tab-btn-wrapper {
+    gap: 0.5rem;
+  }
+  .tab-btn-wrapper button {
+    font-size: 1.2rem;
+  }
+}

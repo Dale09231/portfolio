@@ -1,0 +1,43 @@
+.sidelink-wrapper {
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+  z-index: 20;
+}
+.side-link {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-bottom: 120px;
+  justify-content: center;
+  align-items: center;
+}
+.side-link::after {
+  content: "";
+  width: 2px;
+  height: 100px;
+  background-color: #3d3f58;
+  position: fixed;
+  bottom: 0;
+}
+.side-link a svg {
+  width: 22px;
+  transition: all 0.5s;
+}
+.side-link a svg path {
+  fill: #3d3f58;
+}
+.side-link a:hover svg {
+  transform: scale(1.1);
+}
+.side-link a:hover svg path {
+  fill: #ff4a57;
+}
+@media screen and (max-width: 576px) {
+  .sidelink-wrapper {
+    right: 10px;
+  }
+  .side-link a svg {
+    width: 20px;
+  }
+}
