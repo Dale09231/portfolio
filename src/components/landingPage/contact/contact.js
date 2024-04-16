@@ -59,17 +59,17 @@ const Contact = () => {
           <div className="social-wrappper">
             <a
               href="https://www.linkedin.com/in/dale-newbold/ "
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img src={LinkdinIcon} alt="icon" />
             </a>
-            <a href=" https://github.com/Dale09231" target="_blank">
+            <a href=" https://github.com/Dale09231" target="_blank" rel="noreferrer">
               <img src={GitgubIcon} alt="icon" />
             </a>
 
             <a
               href="https://mail.google.com/mail/?view=cm&fs=1&to=dalenewbold2@gmail.com"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img src={GmailIcon} alt="icon" />
             </a>
