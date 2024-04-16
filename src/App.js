@@ -6,6 +6,8 @@ import Navbar from "./components/layout/navbar/navbar";
 import LandingPage from "./pages/landingPage";
 import SideLink from "./components/common/sideLink/sideLink";
 
+
+
 function App() {
   return (
     <>
