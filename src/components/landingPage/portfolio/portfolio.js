@@ -42,7 +42,7 @@ const Portfolio = () => {
                       </div>
                     </div>
                     <div className="portfolio-card-btn">
-                      <a href={item.websiteLink} target="_blank" rel="noreferrer">
+                      <a href={item.websiteLink} target="_blank">
                         <svg
                           aria-labelledby="svg-inline--fa-title-wBsrgQ2DjvV4"
                           data-prefix="fas"

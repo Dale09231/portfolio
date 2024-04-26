@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "./banner.css";
 import { NavLink } from "react-router-dom";
 import UserIcon from "../../../assets/images/user-icon.png";
@@ -42,7 +42,7 @@ const Banner = () => {
           <div className="banner-container-left">
             <p>WELCOME TO MY CREATIVE JOURNEY!</p>
             <h1>
-              Hi, I’m Daniel <span class="wave">👋</span>
+              Hi, I’m Dale <span class="wave">👋</span>
             </h1>
             <h2>
               A{" "}

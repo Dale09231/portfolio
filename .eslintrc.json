@@ -1,6 +1,0 @@
-{
-    "rules": {
-      "no-undef": "warn" // or "off" to completely disable
-    }
-  }
-  

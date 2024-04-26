@@ -49,7 +49,7 @@ const Contact = () => {
                   <img src={HomeIcon} alt="icon" />
                 </div>
                 <h1>LOCATION</h1>
-                <p>1435 Southwest 15th Avenue Ocala, FL 34471 United States</p>
+                <p>4056 Windsor Ln, Milton, FL 32571</p>
               </div>
             </div>
           </div>
@@ -59,17 +59,17 @@ const Contact = () => {
           <div className="social-wrappper">
             <a
               href="https://www.linkedin.com/in/dale-newbold/ "
-              target="_blank" rel="noreferrer"
+              target="_blank"
             >
               <img src={LinkdinIcon} alt="icon" />
             </a>
-            <a href=" https://github.com/Dale09231" target="_blank" rel="noreferrer">
+            <a href=" https://github.com/Dale09231" target="_blank">
               <img src={GitgubIcon} alt="icon" />
             </a>
 
             <a
               href="https://mail.google.com/mail/?view=cm&fs=1&to=dalenewbold2@gmail.com"
-              target="_blank" rel="noreferrer"
+              target="_blank"
             >
               <img src={GmailIcon} alt="icon" />
             </a>
