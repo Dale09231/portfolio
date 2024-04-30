@@ -11,7 +11,7 @@ const Banner = () => {
   const words = [
     "passionate",
     "fast-learner",
-    "self-taugth",
+    "self-taught",
     "experienced",
     "committed",
   ];
@@ -42,7 +42,7 @@ const Banner = () => {
           <div className="banner-container-left">
             <p>WELCOME TO MY CREATIVE JOURNEY!</p>
             <h1>
-              Hi, I’m Dale <span class="wave">👋</span>
+              Hi, I’m Daniel Newbold <span class="wave">👋</span>
             </h1>
             <h2>
               A{" "}

@@ -39,7 +39,7 @@ const Contact = () => {
                   <img src={MailIcon} alt="icon" />
                 </div>
                 <h1>EMAIL</h1>
-                <p>dalenewbold2@gmail.com</p>
+                <p>newboldd537@gmail.com</p>
               </div>
             </div>
 
@@ -76,7 +76,7 @@ const Contact = () => {
           </div>
           <div className="copyright">
             <p>
-              © 2024 All Rights Reserve to <NavLink>Dale Newbold</NavLink>
+              © 2024 All Rights Reserve to <NavLink>Daniel Newbold</NavLink>
             </p>
           </div>
         </div>
