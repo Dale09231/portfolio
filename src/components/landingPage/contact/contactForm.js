@@ -59,7 +59,7 @@ const ContactForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (validateForm()) {
-      const apiUrl = "https://submit-form.com/Rsqe681Uw";
+      const apiUrl = "https://submit-form.com/6qayY1C3q";
       axios
         .post(apiUrl, formData)
         .then((response) => {
