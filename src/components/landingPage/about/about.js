@@ -48,19 +48,31 @@ const About = () => {
               enterprise solutions.
             </p>
             <p>
-              In my previous role, I was responsible for developing and
-              maintaining a large-scale web application. I also worked on a
-              variety of projects, including developing a new user interface,
-              improving the performance of the application, and adding new
-              features. I am confident that I have the skills and experience
-              necessary to be successful in a FullStack engineer role. I am a
-              hard worker and I am always willing to go the extra mile.{" "}
+              Technical Specifications:
+              <br />
+              JavaScript, Typescript, PHP, Python, Golang, Ruby, C/C++, Java
+              <br />
+              React/Next, Angular, Vue/Nuxt, Gatsby, Tailwind CSS, GraphQL, D3,
+              ThreeJS
+              <br />
+              Node/Express, Python/Django, PHP/Laravel/Symfony, Golang, Ruby on
+              Rails
+              <br />
+              Wordpress, Webflow, Wix, Joomla, Drupal, Squarespace, Shopify
+              <br />
+              Swift/SwiftUI, Java/Kotlin, React Native/Flutter/Ionic/Xamarin
+              <br />
+              Stripe, Paypal, Google, Firebase
+            </p>
+
+            <p>
+              My strong technical skills and business experience give me the
+              ability to communicate with and create alignment between
+              developers, product owners, stakeholders, and executives.
             </p>
             <p>
-              I am eager to take on new challenges and I am always looking for
-              ways to improve my skills. I am confident that I can make a
-              significant contribution to your team or build your projects with
-              the latest technologies.
+              Please contact me at any time when it is convenient for you to
+              discuss further.
             </p>
           </div>
         </div>

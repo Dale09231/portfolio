@@ -23,82 +23,44 @@ const Experience = () => {
           <div className="experince-card">
             <div className="experience-container-left">
               <div className="experience-year">
-                <h1>JAN 2023 - Present</h1>
-                <div className="experience-colon"></div>
-              </div>
-            </div>
-            <div className="experience-container-right">
-              <h1>Sr. Full Stack Developer && DevOps Engineer</h1>
-              <p>Upwork</p>
-              <ul>
-                <li>
-                  Orchestrated the end-to-end development lifecycle, from
-                  architecture design to deployment, as a Senior Full Stack
-                  Developer and DevOps Engineer.
-                </li>
-                <li>
-                  Spearheaded the implementation of continuous integration and
-                  continuous deployment (CI/CD) pipelines to streamline
-                  development workflows and accelerate time to market.
-                </li>
-                <li>
-                  Leveraged a comprehensive understanding of frontend and
-                  backend technologies to architect scalable and responsive web
-                  applications.
-                </li>
-                <li>
-                  Established and maintained robust monitoring and alerting
-                  systems to ensure the reliability and availability of critical
-                  services.
-                </li>
-                <li>
-                  Collaborated with cross-functional teams to optimize
-                  application performance, troubleshoot issues, and implement
-                  solutions for scalability and efficiency.
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="experince-card">
-            <div className="experience-container-left">
-              <div className="experience-year">
                 <h1>JUL 2019 - OCT 2022</h1>
                 <div className="experience-colon"></div>
               </div>
             </div>
             <div className="experience-container-right">
-              <h1>Senior Full Stack Developer</h1>
+              <h1>Senior FullStack Engineer - Frontend and Backend</h1>
               <p>Whitepages</p>
               <ul>
                 <li>
-                  Responsible for DevOps Architecture, Infrastructure
-                  Automations (Terraform, ARM), Rearchitecture, transformation,
-                  migration and implementation of (Customer’s) Custom
-                  Application / Infrastructure on Azure IaaS and PaaS cloud
-                  solutions.
+                  Web application development in .Net based development
+                  environment and develop web application components using
+                  JavaScript frameworks
                 </li>
                 <li>
-                  Responsible for AWS & Azure Customer discovery, assessment,
-                  technical engagement, service validation, monthly reviews.
+                  Improved and maintained a core Ruby on Rails web app serving
+                  80k+ page views per minute.
                 </li>
                 <li>
-                  Build and release, provisioning, capacity planning, Reporting,
-                  Configuration Management and Manage continuous deployment of
-                  custom Applications.
+                  Work as part of the development team towards the application
+                  in an aggressive deadline
                 </li>
                 <li>
-                  Administer & Manage: GCP Partner Portal, Microsoft Partner,
-                  Microsoft Azure MSP CSP Subscription, Azure DevOps, JIRA,
-                  CloudSphere, PRISMA, OPSRamp
+                  Provide assistance to support engineers and customer service
+                  staff in order to resolve production issues as quickly as
+                  possible
                 </li>
                 <li>
-                  Design and implement AWS/GCP & Azure IaaS and PaaS technology
-                  solutions for client's business needs, security, and service
-                  level requirement and conduct proof of concept (POC).
+                  Implement systems that are highly available, scalable, and
+                  self-healing on the AWS platform
                 </li>
                 <li>
-                  Building and deploying applications in Microsoft Azure, Amazon
-                  Web Services and Google Compute Platform
+                  Experience in testing high-performance, highly-available and
+                  scalable distributed systems
+                </li>
+                <li>Migrated the system to a microservice architecture.</li>
+                <li>
+                  Migrated the system to Kubernetes on AWS and helped build
+                  tooling to automate deployments using Helm and Jenkins.
                 </li>
               </ul>
             </div>
@@ -111,49 +73,8 @@ const Experience = () => {
               </div>
             </div>
             <div className="experience-container-right">
-              <h1>Senior Backend Developer</h1>
+              <h1>Senior FullStack Engineer</h1>
               <p>Contix</p>
-              <ul>
-                <li>
-                  Publish Product new version on Microsoft Azure Marketplace.
-                </li>
-                <li>
-                  Build DevOps Architecture in Azure DevOps and Maintained CI/CD
-                  for the Application Infrastructure hosted in Azure.
-                </li>
-                <li>
-                  Prepared test environment for the product on Hyper-V
-                  (Application Server, Encoding Server, Storage Server, SQL
-                  Server 2017 Enterprise, ADFS Server, ID-Connector Server,
-                  ForgeRock Open-AM SSO Server, WOWZA Storage Server).
-                </li>
-                <li>
-                  Deployed Staging environment of the Product new version on
-                  Azure Cloud.
-                </li>
-                <li>
-                  Deployed Virtual Machine Scale Set on Azure for Product.
-                </li>
-                <li>
-                  Automated installation of new version Product with PowerShell.
-                </li>
-                <li>
-                  SSO Integrations for (Azure AD, ForgeRock, Okta, PingID,
-                  OneLogin, ADFS, SAML-P)
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="experince-card">
-            <div className="experience-container-left">
-              <div className="experience-year">
-                <h1>MAY 2011 - JUN 2014</h1>
-                <div className="experience-colon"></div>
-              </div>
-            </div>
-            <div className="experience-container-right">
-              <h1>Senior Frontend Developer</h1>
-              <p>OpenArc</p>
               <ul>
                 <li>
                   Initiated, constructed, and launched two web applications from
