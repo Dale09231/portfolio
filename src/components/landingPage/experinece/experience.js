@@ -28,40 +28,28 @@ const Experience = () => {
               </div>
             </div>
             <div className="experience-container-right">
-              <h1>Senior FullStack Engineer - Frontend and Backend</h1>
+              <h1>Senior Lead FullStack Engineer - Frontend and Backend</h1>
               <p>Whitepages</p>
               <ul>
                 <li>
-                  Web application development in .Net based development
-                  environment and develop web application components using
-                  JavaScript frameworks
+                  Worked on a development team to create new, awesome features
+                  for millions of users.
                 </li>
                 <li>
-                  Improved and maintained a core Ruby on Rails web app serving
-                  80k+ page views per minute.
+                  Lead the developers of development team to extend the
+                  functionality and performance of applications. Provided third
+                  level assistance and support on developed applications.
                 </li>
                 <li>
-                  Work as part of the development team towards the application
-                  in an aggressive deadline
+                  Provided ongoing feedback to upper management on the current
+                  status of projects.
                 </li>
                 <li>
-                  Provide assistance to support engineers and customer service
-                  staff in order to resolve production issues as quickly as
-                  possible
+                  Provided architectural leadership by leading design,
+                  implementation, code reviews and drive teams to the highest
+                  standards.
                 </li>
-                <li>
-                  Implement systems that are highly available, scalable, and
-                  self-healing on the AWS platform
-                </li>
-                <li>
-                  Experience in testing high-performance, highly-available and
-                  scalable distributed systems
-                </li>
-                <li>Migrated the system to a microservice architecture.</li>
-                <li>
-                  Migrated the system to Kubernetes on AWS and helped build
-                  tooling to automate deployments using Helm and Jenkins.
-                </li>
+                <li>Developed UI, management layer and Services, and APIs</li>
               </ul>
             </div>
           </div>
@@ -73,32 +61,64 @@ const Experience = () => {
               </div>
             </div>
             <div className="experience-container-right">
-              <h1>Senior FullStack Engineer</h1>
+              <h1>
+                Senior FullStack Engineer - React/Angular/Vue, PHP/Laravel,
+                Python, AWS
+              </h1>
               <p>Contix</p>
               <ul>
                 <li>
-                  Initiated, constructed, and launched two web applications from
-                  inception to release.
+                  Build and maintain REST APIs used by our internal tools to
+                  gain access to the data
                 </li>
                 <li>
-                  Directed the deployment process and engineered resilient
-                  serverless technologies to ensure high availability.
+                  Assist project/program/product managers, providing technical
+                  information to do project scoping and scheduling
                 </li>
                 <li>
-                  Conducted rigorous testing of customer-facing prototypes
-                  pre-deployment, achieving a 99% success rate.
+                  Work with the operations team to improve monitoring on all
+                  backend systems and APIs
                 </li>
                 <li>
-                  Optimized web page performance, doubling speed for enhanced
-                  user experience and accessibility.
+                  Continuously design, develop and deploy backend services with
+                  focus on high availability, low latency and scalability
                 </li>
                 <li>
-                  Ensured website compatibility across 99% of browsers,
-                  fostering seamless user interactions.
+                  Collaborate with developers across product and services teams
+                  to integrate with backend APIs
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="experince-card">
+            <div className="experience-container-left">
+              <div className="experience-year">
+                <h1>MAY 2011 - JUN 2014</h1>
+                <div className="experience-colon"></div>
+              </div>
+            </div>
+            <div className="experience-container-right">
+              <h1>Senior Frontend Developer</h1>
+              <p>OpenArc</p>
+              <ul>
+                <li>
+                  Build applications using a variety of languages to include
                 </li>
                 <li>
-                  Boosted mobile traffic by 20% through the implementation of a
-                  mobile-first responsive design strategy.
+                  Familiarity with common patterns in building distributed
+                  systems, such as service registration and discovery, routing,
+                  load balancing and circuit breakers
+                </li>
+                <li>
+                  Supports Sales team with product modifications and engineering
+                </li>
+                <li>
+                  Think through complex problems and work with a team to
+                  implement real-world solutions
+                </li>
+                <li>
+                  Build web applications that work equally well on desktop and
+                  mobile devices
                 </li>
               </ul>
             </div>
